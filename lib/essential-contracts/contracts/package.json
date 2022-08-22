@@ -1,0 +1,30 @@
+{
+  "name": "@0xessential/contracts",
+  "description": "0xEssential's Smart Contract library for Solidity",
+  "version": "0.0.1-beta-3",
+  "files": [
+    "**/*.sol",
+    "/build/contracts/*.json",
+    "!/mocks/**/*"
+  ],
+  "scripts": {
+    "prepare": "bash ../scripts/prepare-contracts-package.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xEssential/0xessential-contracts.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts"
+  ],
+  "author": "0xEssential <hello@0xessential.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xEssential/0xessential-contracts/issues"
+  },
+  "homepage": "https://github.com/0xEssential/0xessential-contracts/"
+ 
+}
